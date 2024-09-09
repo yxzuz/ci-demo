@@ -1,5 +1,7 @@
 Continuous Integration Demo
 ===========================
+[![Run Unit Tests](https://github.com/yxzuz/ci-demo/actions/workflows/python-unittest.yml/badge.svg)](https://github.com/yxzuz/ci-demo/actions/workflows/python-unittest.yml)
+[![Run Flake 8](https://github.com/yxzuz/ci-demo/actions/workflows/python-unittest.yml/badge.svg)](https://github.com/yxzuz/ci-demo/actions/workflows/python-unittest.yml)
 
 This project demonstrates use of Github Actions to build and test a Python project.  
 
