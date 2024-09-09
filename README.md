@@ -1,7 +1,7 @@
-Continuous Integration Demo
+git Continuous Integration Demo
 ===========================
-[![Run Unit Tests](https://github.com/yxzuz/ci-demo/actions/workflows/python-unittest.yml/badge.svg)](https://github.com/yxzuz/ci-demo/actions/workflows/python-unittest.yml)
-[![Run Flake 8](https://github.com/yxzuz/ci-demo/actions/workflows/python-unittest.yml/badge.svg)](https://github.com/yxzuz/ci-demo/actions/workflows/python-unittest.yml)
+[![Run Unit Tests](../../actions/workflows/python-unittest.yml/badge.svg)]
+[![Run Flake 8](../../actions/workflows/run-flake8.yml/badge.svg)]
 
 This project demonstrates use of Github Actions to build and test a Python project.  
 
