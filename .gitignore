@@ -100,3 +100,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Ignore coverage data and reports
+#.coverage
+htmlcov/
+

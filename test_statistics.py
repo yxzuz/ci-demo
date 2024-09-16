@@ -1,6 +1,6 @@
 """Unittest for statistics.py."""
 from unittest import TestCase
-from statistics import variance, stdev
+from statistics import variance, stdev, average
 from math import sqrt
 
 
@@ -28,7 +28,23 @@ class StatisticsTest(TestCase):
         # variance([0, 0.5, 1, 1.5, 2.0]) is 0.5
         self.assertEqual(sqrt(0.5), stdev([0, 0.5, 1, 1.5, 2]))
 
+    def test_avg_positive(self):
+        """Test for average function"""
+        self.assertEqual(average([1,2,3,4,5]), 3)
 
-if __name__ == '__main__':
-    import unittest
-    unittest.main(verbosity=1)
+    # def test_avg_two_vals(self):
+    #     """Test for average with two values"""
+    #     self.assertEqual(average([2, 3]), 2.5)
+
+    # def test_avg_negative(self):
+    #     self.assertEqual(average([-1,-2,-3,-4]), -2.5)
+    #
+    # def test_avg_no_len(self):
+    #     with self.assertRaises(ValueError) as c:
+    #         average([])
+    #     self.assertEqual(str(c.exception), "List must contain at least one value")
+
+
+# if __name__ == '__main__':
+#     import unittest
+#     unittest.main(verbosity=1)
