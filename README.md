@@ -1,7 +1,7 @@
 git Continuous Integration Demo
 ===========================
-[![Run Unit Tests](../../actions/workflows/python-unittest.yml/badge.svg)]
-[![Run Flake 8](../../actions/workflows/run-flake8.yml/badge.svg)]
+[![Run Unit Tests](../../actions/workflows/python-unittest.yml/badge.svg)](../../actions/workflows/python-unittest.yml)
+[![Run Flake8](../../actions/workflows/run-flake8.yml/badge.svg)](../../actions/workflows/run-flake8.yml)
 
 This project demonstrates use of Github Actions to build and test a Python project.  
 
